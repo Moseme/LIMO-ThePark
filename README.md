@@ -1,47 +1,35 @@
-# LIMO – The Park
-
-A Sesotho-mnemonic, RV32I-derived instruction set (**LIMO**) and a browser-based
+LIMO – The Park
+A Sesotho-mnemonic, RV32I-derived instruction set (LIMO) and a browser-based
 five-stage pipeline simulator. CS3520 Computer Organisation and Architecture,
 National University of Lesotho, AY 2026/2027.
-
-**Live simulator:** <https://leetomotloheloajoseph40.github.io/LIMO-ThePark/> *(live once GitHub Pages is enabled)*
-**Demo video:** (add unlisted YouTube link for M5)
-
-## Team and roles
-
-Roles rotate weekly. Current week: **M?**
-
-| Member | GitHub | Role this week |
-|---|---|---|
-| L. Motloheloa | @LeetoMotloheloaJoseph40 | |
-| T. Liphoto | @thaboliphoto | |
-| R. Moseme | @Moseme | |
-| K. Khobotle | @KhobotleHelen | |
-| K. Ramili | @amira2K5 | |
-| S. Senekane | @Charity6-dev | |
-
-## Repository layout
-
-| Path | Contents |
-|---|---|
-| `src/` | The simulator (static site, published from here) |
-| `tests/` | Unit tests and LIMO test programs |
-| `examples/` | Sample `.limo` programs |
-| `docs/` | ISA specification, design, test report, team charter, sprint notes |
-| `AI_USE.md` | AI usage declaration |
-
-## Run locally
-
-```bash
-npm test                      # unit tests (Node 20+)
-npx serve src                 # or open src/index.html in a browser
-```
-
-## How we work
-
-Feature branch -> pull request -> review by another member -> merge. `main` is protected.
-Each milestone is a tagged release (`m1`–`m4`, `v1.0`). See `docs/team-charter.md`.
-
-## Licence
-
-MIT, see `LICENSE`.
+Live simulator: https://leetomotloheloajoseph40.github.io/LIMO-ThePark/ (live once GitHub Pages is enabled)
+Demo video: (add unlisted YouTube link for M5)
+Team and roles
+Roles rotate weekly. Current week: M2
+Member
+GitHub
+Role this week
+L. Motloheloa
+@LeetoMotloheloaJoseph40
+Pipeline and Implementation Lead (team leader)
+Build the pipeline-register data model and core logic · Build the block diagram and interface wireframes · Support coding across the assembler and UI
+T. Liphoto
+@thaboliphoto
+Interface Lead
+Build the GitHub Pages site skeleton
+R. Moseme
+@Moseme
+ISA Architect
+Freeze the ISA with D1 feedback · Finalise the three sample LIMO programs · Update the ISA specification in docs/
+K. Khobotle
+@KhobotleHelen
+Assembler Lead
+Build the working assembler (.limo to binary and hex) · Colour-coded fields and error messages with line numbers · Write the assembler unit tests
+K. Ramili
+@amira2K5
+Design and Test Lead
+Draft the hazard/forwarding design document · Set up the test-harness scaffolding · Ensure all tests run with one command
+S. Senekane
+@Charity6-dev
+Scrum and Release Lead
+Manage the GitHub Projects board and issues · Enforce PR reviews and merge rules · Prepare the m2 tag and the sprint note
